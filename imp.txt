@@ -1,0 +1,60 @@
+tag
+#id
+.class
+
+// it gives alert whenever our body loaded
+<body onload = "alert('hello!')" 
+
+// it select single query
+document.querySelector("h1"); 
+
+// it select multipe h1 query give ans in an array[]
+document.querySelectorAll("h1") 
+// now h1 at 0th index
+document.querySelectorAll("h1")[0] 
+
+// change the h1 tag from "hello" to "hi!"
+document.querySelector("h1").innerHtml = "hi!" 
+
+// to changecolor
+document.getElementByTagName("li")[1].select.color = "red" 
+
+// To add class to a tag
+document.querySelector("h1").classlist.add("className")
+
+// To remove class to a tag
+document.querySelector("h1").classlist.remove("className")
+
+// To toggle(add/remove on every refresh) class to a tag
+document.querySelector("h1").classlist.toggle("className")
+
+
+** text maniputlation
+if <h1> <strong> hello </strong> </h1> so
+
+// it gives us content as well as tag inside the taf
+document.querySelector("h1").innerHtml
+> <strong> hello </strong>
+
+// it gives us only content inside the h1
+document.querySelector("h1").textContent
+> hello 
+
+** Attribute: gives link or source of the file
+<a href="www.google.com"
+
+document.querySelector("a").attribute
+> gives the obj. of tage <a>
+
+// get  the attribute
+document.querySelector("a").getAttribute("href")
+>www.google.com
+
+// set the attribute
+document.querySelector("a").setAttribute("href","www.bing.com")
+>www.bing.com
+
+
+
+
+
